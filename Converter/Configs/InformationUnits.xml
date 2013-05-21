@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- info from http://www.bit-calculator.com/-->
+<ConversionTable>
+  <Units>
+    <Unit code="1" name="bit" symbol="b" plural="bits"/>
+    <Unit code="2" name="Byte" symbol="B" plural="Bytes"/>
+    <Unit code="3" name="KiloByte" symbol="KB" plural="KiloBytes"/>
+    <Unit code="4" name="MegaByte" symbol="MB" plural="MegaBytes"/>
+    <Unit code="5" name="GigaByte" symbol="GB" plural="GigaBytes"/>
+    <Unit code="6" name="TeraByte" symbol="TB" plural="TeraBytes"/>
+    <Unit code="7" name="PetaByte" symbol="PB" plural="PetaBytes"/>
+    <Unit code="8" name="ExaByte" symbol="EB" plural="ExaBytes"/>
+    <Unit code="9" name="ZettaByte" symbol="ZB" plural="ZettaBytes"/>
+    <Unit code="10" name="YottaByte" symbol="YB" plural="YottaBytes"/>
+  </Units>
+  <Conversions>
+    <Linear srcCode="1" destCode="2" factor="0.125"/>
+    <Linear srcCode="1" destCode="3" factor="0.0001220703125"/>
+    <Linear srcCode="1" destCode="4" factor="1.1920928955078E-7"/>
+    <Linear srcCode="1" destCode="5" factor="1.1641532182693E-10"/>
+    <Linear srcCode="1" destCode="6" factor="1.1368683772162E-13"/>
+    <Linear srcCode="1" destCode="7" factor="1.1102230246252E-16"/>
+    <Linear srcCode="1" destCode="8" factor="1.0842021724855E-19"/>
+    <Linear srcCode="1" destCode="9" factor="1.0587911840679E-22"/>
+    <Linear srcCode="1" destCode="10" factor="1.0339757656913E-25"/>
+
+    <Linear srcCode="2" destCode="3" factor="0.0009765625"/>
+    <Linear srcCode="2" destCode="4" factor="9.5367431640625E-7"/>
+    <Linear srcCode="2" destCode="5" factor="9.3132257461548E-10"/>
+    <Linear srcCode="2" destCode="6" factor="9.0949470177293E-13"/>
+    <Linear srcCode="2" destCode="7" factor="8.8817841970013E-16" />
+    <Linear srcCode="2" destCode="8" factor="8.673617379884E-19"/>
+    <Linear srcCode="2" destCode="9" factor="8.470329472543E-22" />
+    <Linear srcCode="2" destCode="10" factor="8.2718061255303E-25"/>
+
+    <Linear srcCode="3" destCode="4" factor="0.0009765625"/>
+    <Linear srcCode="3" destCode="5" factor="9.5367431640625E-7"/>
+    <Linear srcCode="3" destCode="6" factor="9.3132257461548E-10"/>
+    <Linear srcCode="3" destCode="7" factor="9.0949470177293E-13" />
+    <Linear srcCode="3" destCode="8" factor="8.8817841970013E-16"/>
+    <Linear srcCode="3" destCode="9" factor="8.673617379884E-19" />
+    <Linear srcCode="3" destCode="10" factor="8.470329472543E-22"/>
+    
+    <Linear srcCode="4" destCode="5" factor="0.0009765625"/>
+    <Linear srcCode="4" destCode="6" factor="9.5367431640625E-7"/>
+    <Linear srcCode="4" destCode="7" factor="9.3132257461548E-10" />
+    <Linear srcCode="4" destCode="8" factor="9.0949470177293E-13"/>
+    <Linear srcCode="4" destCode="9" factor="8.8817841970013E-16" />
+    <Linear srcCode="4" destCode="10" factor="8.673617379884E-19"/>
+
+    <Linear srcCode="5" destCode="6" factor="0.0009765625" />
+    <Linear srcCode="5" destCode="7" factor="9.5367431640625E-7" />
+    <Linear srcCode="5" destCode="8" factor="9.3132257461548E-10" />
+    <Linear srcCode="5" destCode="9" factor="9.0949470177293E-13" />
+    <Linear srcCode="5" destCode="10" factor="8.8817841970013E-16" />
+    
+    <Linear srcCode="6" destCode="7" factor="0.0009765625" />
+    <Linear srcCode="6" destCode="8" factor="9.5367431640625E-7" />
+    <Linear srcCode="6" destCode="9" factor="9.3132257461548E-10" />
+    <Linear srcCode="6" destCode="10" factor="9.0949470177293E-13" />
+
+    <Linear srcCode="7" destCode="8" factor="0.0009765625" />
+    <Linear srcCode="7" destCode="9" factor="9.5367431640625E-7" />
+    <Linear srcCode="7" destCode="10" factor="9.3132257461548E-10" />
+
+    <Linear srcCode="8" destCode="9" factor="0.0009765625" />
+    <Linear srcCode="8" destCode="10" factor="9.5367431640625E-7" />
+
+    <Linear srcCode="9" destCode="10" factor="0.0009765625" />
+  </Conversions>
+</ConversionTable>

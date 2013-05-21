@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ConversionTable>
+  <Units>
+    <Unit code="1" name="Meter" symbol="m" plural="Meters"/>
+    <Unit code="2" name="Centimeter" symbol="cm" plural="Centimeters"/>
+  </Units>
+  <Conversions>
+    <Linear srcCodes="1" destCode="2" factor="1"/>
+  </Conversions>
+</ConversionTable>
